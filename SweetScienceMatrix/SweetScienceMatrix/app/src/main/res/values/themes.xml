@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.SweetScienceMatrix" parent="Theme.SplashScreen">
+        <!-- Splash screen icon background -->
+        <item name="windowSplashScreenBackground">#0A0A0F</item>
+        <!-- Splash screen icon (use your adaptive icon) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_glove</item>
+        <!-- Duration of the animated icon: use 0 for static -->
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <!-- Theme of the Activity once the splash ends -->
+        <item name="postSplashScreenTheme">@style/Theme.SweetScienceMatrix.App</item>
+    </style>
+
+    <style name="Theme.SweetScienceMatrix.App" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0A0A0F</item>
+        <item name="android:navigationBarColor">#0A0A0F</item>
+        <item name="android:windowBackground">#0A0A0F</item>
+    </style>
+</resources>

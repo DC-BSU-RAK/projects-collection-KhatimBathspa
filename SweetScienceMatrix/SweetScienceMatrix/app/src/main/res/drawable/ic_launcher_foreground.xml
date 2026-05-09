@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#0A0A0F"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z"/>
+
+    <!-- Boxing glove body -->
+    <path
+        android:fillColor="#E63946"
+        android:pathData="M30,40 C30,28 39,20 52,20 C65,20 74,28 74,40 L74,65 C74,74 67,82 58,82 L46,82 C37,82 30,74 30,65 Z" />
+
+    <!-- Glove thumb -->
+    <path
+        android:fillColor="#C1121F"
+        android:pathData="M30,42 C30,42 22,41 21,48 C20,55 25,60 30,57 L30,50 Z" />
+
+    <!-- Glove wrist cuff -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M36,82 L68,82 L70,94 L34,94 Z" />
+
+    <!-- Lace line on cuff -->
+    <path
+        android:strokeColor="#E63946"
+        android:strokeWidth="2.5"
+        android:pathData="M36,86 L68,86"
+        android:fillColor="#00000000"/>
+    <path
+        android:strokeColor="#E63946"
+        android:strokeWidth="2.5"
+        android:pathData="M37,90 L67,90"
+        android:fillColor="#00000000"/>
+
+    <!-- Knuckle ridge lines -->
+    <path
+        android:strokeColor="#C1121F"
+        android:strokeWidth="1.8"
+        android:pathData="M42,36 L42,58"
+        android:fillColor="#00000000"/>
+    <path
+        android:strokeColor="#C1121F"
+        android:strokeWidth="1.8"
+        android:pathData="M54,33 L54,55"
+        android:fillColor="#00000000"/>
+    <path
+        android:strokeColor="#C1121F"
+        android:strokeWidth="1.8"
+        android:pathData="M66,36 L66,58"
+        android:fillColor="#00000000"/>
+
+    <!-- Glove shine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M42,24 C46,21 58,21 63,25 C59,28 46,28 42,24 Z"/>
+</vector>

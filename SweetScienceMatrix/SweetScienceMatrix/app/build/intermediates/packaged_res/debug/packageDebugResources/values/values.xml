@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sweet Science Matrix</string>
+    <style name="Theme.SweetScienceMatrix" parent="Theme.SplashScreen">
+        
+        <item name="windowSplashScreenBackground">#0A0A0F</item>
+        
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_glove</item>
+        
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        
+        <item name="postSplashScreenTheme">@style/Theme.SweetScienceMatrix.App</item>
+    </style>
+    <style name="Theme.SweetScienceMatrix.App" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0A0A0F</item>
+        <item name="android:navigationBarColor">#0A0A0F</item>
+        <item name="android:windowBackground">#0A0A0F</item>
+    </style>
+</resources>
